@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(100, 100, 233);
+   
+    font:normal 15pt Arial;
+    
+}
+header{
+   text-align: center;
+   color: #ffffff;
+}
+
+section{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #00000031;
+    padding: 15px;
+    width: 40%;
+    margin: 5% auto;
+    
+    
+    
+    
+    
+    
+    
+}
+
+div{
+    
+    padding: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    text-align: center;
+}
+
+#btn{
+    border-radius: 10px;
+    padding: 10px 20px;
+  font-size: 16pt;
+}
+
+footer{
+    color: #f1f1f5;
+    text-align: center;
+    margin-top: 20px;
+
+}

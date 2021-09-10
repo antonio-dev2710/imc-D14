@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Índice de massa corporal</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="subcontainer">
+                <label for="txn1">
+                    Peso(Kg): <input type="number" id="txn1" placeholder="ex:80.9"> 
+                    </label> 
+                <label for="txn2">
+                    Altura(m): <input type="number" id="txn2" placeholder="ex:1.68"> 
+                    </label> 
+                </div>
+           <p>Sexo:
+                <input type="radio" checked id="masc" name="genero" > 
+                <label for="">Masculino</label> 
+                <input type="radio" id="fem" name="genero" > 
+                <label for="">Feminino</label> 
+            </p>
+            <div class="botao"> 
+            <input type="button" id="btn" value="Verificar" onclick="Calcular()">
+            </div>
+           
+        </div>
+
+        <div id="resp" >
+           
+        </div>
+    </section>
+
+   
+    <script src="/imc-D14/main.js"></script>
+</body>
+</html>
